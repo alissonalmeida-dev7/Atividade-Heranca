@@ -1,4 +1,14 @@
-﻿//* Ex1 
+﻿using AtividadeHeranca.Ex3;
+using AtividadeHeranca.Ex4;
+using AtividadeHeranca.Ex5;
+using AtividadeHeranca.Ex6;
+using AtividadeHeranca.Ex7;
+using AtividadeHeranca.Ex8;
+using AtividadeHeranca.Ex9;
+using AtividadeHeranca.Ex10;
+
+
+//* Ex1 
 // Carro carro = new Carro("BMW", "X1", 4);
 // carro.ExibirInformacoes();
 
@@ -42,3 +52,39 @@
 
 // Contrato contrato = new Contrato();
 // contrato.Imprimir();
+
+//* Ex7
+// Notebook notebook = new Notebook("VivoBook Go 15", "4364343", 8m);
+// notebook.ExibirInformacoes();
+
+// Smartphone smartphone = new Smartphone("Iphone 13", "42344234", 252m);
+// smartphone.ExibirInformacoes();
+
+//* Ex8
+// foreach(var animal in new List<Animal>
+// {
+//     new Cachorro("Terror"),
+//     new Gato("Kitty"),
+//     new Passaro("Clovis")
+// })
+// {
+//     animal.Apresentar();
+//     animal.EmitirSom();
+// }
+
+//* Ex9
+BancoDados notebook = new BancoDados();
+notebook.Ler();
+notebook.Salvar("App");
+
+ArquivoTexto pdf = new ArquivoTexto();
+pdf.Ler();
+pdf.Salvar("Mensagem");
+
+//* Ex10
+// Hospedagem hospedagem = new Hospedagem("Trivago");
+// hospedagem.Contratar();
+// hospedagem.Cancelar();
+
+// Consultoria consultoria = new Consultoria("Mentalista");
+// consultoria.Contratar();
